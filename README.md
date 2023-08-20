@@ -19,7 +19,6 @@ Dependencies:
 
     "axios": "^1.4.0",
     "express": "^4.18.2",
-    "ffmpeg": "^0.0.4",
     "googleapis": "^126.0.0",
     "youtube-exec": "^1.0.4"
 
