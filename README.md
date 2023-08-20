@@ -25,6 +25,11 @@ Dependencies:
 NPM install all the packages
 
 
+Documentation Guide for working with spotify API:
+https://developer.spotify.com/documentation/web-api
+
+Documentation Guide for working with youtube API:
+https://developers.google.com/youtube
 
 
 
