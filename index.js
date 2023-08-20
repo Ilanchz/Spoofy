@@ -10,7 +10,7 @@ const config={
   quality: 128
 }
 
-const youtube_api='';
+const youtube_api='';   //Update the API keys 
 const port = 3000;
 const clientId = "";
 const clientSecret = "";
