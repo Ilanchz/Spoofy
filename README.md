@@ -1,5 +1,5 @@
 # Spoofy
-A web-app uses spotify's url link to find songs and youtube API to download the songs.
+A web-app leveraging spotify API to find songs and youtube API to download the songs.
 Songs are downloaded based upon the youtube ranking of most relevant music.
 
 Disclaimer: This app uses only the npm modules provided to download the files no files belong to this account
