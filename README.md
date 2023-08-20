@@ -26,6 +26,8 @@ Dependencies:
 
 NPM install all the packages
 
+Base64 Decoding and Encoding:
+https://www.base64encode.org/
 
 Documentation Guide for working with Spotify API:
 https://developer.spotify.com/documentation/web-api
