@@ -3,7 +3,9 @@ A web-app leveraging spotify API to find songs and youtube API to download the s
 The songs are downloaded based upon the youtube ranking of most relevant music.
 
 Disclaimer: This app uses only the npm modules provided to download the files no files belong to this account
-FFMpeg is required to download the youtube songs
+
+Requirement:
+FFMpeg is required to download the youtube songs make sure to install and add to path.
 
 Documentation:
 
