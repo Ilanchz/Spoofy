@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/styles.css">
+    <title>Spoofy App</title>
+</head>
+<body>
+    <form action="/Authenticate" method="POST">
+        <div class="container">
+            <h1 class="app-title">Spoofy App</h1>
+            <p class="app-description">Paste the Spotify link or URL and click Download!</p>
+            <input type="text" name="link" class="textbox" placeholder="Enter Spotify Link">
+            <input type="submit" id="the-go-button" value="Download" class="submit-button">
+            <h6></h6>
+            <script>
+                const x=document.querySelector("#the-go-button");
+                x.addEventListener("click",()=>{
+                    document.querySelector("h6").textContent="Downloading in the background!";
+                })
+            </script>
+        </div>
+    </form>
+</body>
+</html>
