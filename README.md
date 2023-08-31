@@ -17,14 +17,20 @@ const clientId = " Spotify API client id which will be obtained after registerin
 const clientSecret = " Spotify API client id which will be obtained after registering "
 const redirectUri = " The Url to redirect back to your web app or endpoint ";
 
-Dependencies:
+or
 
+Use Environment variables to store the API keys and passwords (Recommended)
+
+Dependencies: 
     "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "ffmpeg": "^0.0.4",
     "googleapis": "^126.0.0",
     "youtube-exec": "^1.0.4"
+  
 
-NPM install all the packages
+npm install all the packages
 
 Base64 Decoding and Encoding:
 https://www.base64encode.org/
