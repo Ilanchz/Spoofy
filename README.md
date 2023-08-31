@@ -1,4 +1,5 @@
 # Spoofy
+
 A web-app leveraging spotify API to find songs and youtube API to download the songs.
 The songs are downloaded based upon the youtube ranking of most relevant music.
 
@@ -20,6 +21,7 @@ const redirectUri = " The Url to redirect back to your web app or endpoint ";
 or
 
 Use Environment variables to store the API keys and passwords (Recommended)
+Specify .env .gitignore 
 
 Dependencies
 
@@ -43,6 +45,7 @@ Documentation Guide for working with Youtube API:
 https://developers.google.com/youtube
 
 
+ 
 
 
 
