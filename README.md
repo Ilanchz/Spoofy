@@ -21,7 +21,8 @@ or
 
 Use Environment variables to store the API keys and passwords (Recommended)
 
-Dependencies: 
+Dependencies
+
     "axios": "^1.4.0",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
