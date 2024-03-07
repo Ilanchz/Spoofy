@@ -4,9 +4,9 @@
     <link rel="stylesheet" href="/output.css">
     <title>Spoofy App</title>
 </head>
-<body class="bg-blue-300 flex items-center justify-center h-screen border-4 border-violet-500">
+<body class="bg-blue-300 flex items-center justify-center h-screen m-0 p-0">
     <form action="/Authenticate" method="POST">
-        <div class="container w-64 sm:w-96 h-64 text-center bg-gray-200 rounded-lg p-3">
+        <div class="container w-64 sm:w-96 h-64 text-center bg-gray-200 rounded-lg p-3 shadow-2xl border-violet-500 border-4">
             <h1 class=" text-3xl font-sans font-bold p-4 text-violet-600">Spoofy App</h1>
             <p class=" p-3 text-sm">Paste the Spotify link or URL and click Download!</p>
             <input type="text" name="link" class=" outline-none p-2 m-1" placeholder="Enter Spotify Link">
@@ -20,5 +20,8 @@
             </script>
         </div>
     </form>
+    <footer class="bg-gray-700 text-gray-100 absolute bottom-0 w-full text-center overflow-x-hidden">
+        App is not functional due to missing npm package youtube-exec. Songs downloaded may be subject to copyrights.
+    </footer>
 </body>
 </html>
