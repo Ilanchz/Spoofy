@@ -4,7 +4,6 @@ import express from "express";
 import axios from "axios";
 import queryString from "querystring";
 import { google } from 'googleapis';
-import { dlAudio } from "youtube-exec";
 
 const app = express();
 app.use(express.static("public"));
